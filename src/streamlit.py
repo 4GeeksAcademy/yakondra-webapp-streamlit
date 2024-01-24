@@ -13,7 +13,7 @@ st.write("Welcome. Please enter the following data to predict charges for your i
 age_val = st.slider('Enter your age:',
                     min_value = 16,
                     max_value = 79,
-                    # step = 1
+                    step = 1
                     )
 
 sex_val = st.selectbox('Select your gender:',
@@ -23,13 +23,13 @@ sex_val = st.selectbox('Select your gender:',
 bmi_val = st.slider('Enter your BMI:',
                     min_value = 15.80,
                     max_value = 51.20,
-                    #step = 0.01
+                    step = 0.01
                     )
 
 children_val = st.number_input('Enter the number of children (if you have them):',
                                min_value = 0,
                                max_value = 5,
-                               #step = 1
+                               step = 1
                                )
 
 smoker_val = st.selectbox('Are you a smoker:',
